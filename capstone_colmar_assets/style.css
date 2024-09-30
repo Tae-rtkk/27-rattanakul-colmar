@@ -2,6 +2,7 @@
     padding: 0;
     margin: 0;
     box-sizing: border-box;
+    font-family: "Roboto", sans-serif;
 }
 
 /* NAVBAR */
@@ -183,7 +184,8 @@ nav ul li a {
 }
 
 .s1, .s2, .s3, .s4, .s5, .s6 {
-    background-color: #fff;
+    background-color: #e9e9e9;
+    border: 1px solid #cacaca;
 }
 .s1:hover {
     background-color: #cacaca;
@@ -323,6 +325,10 @@ footer ul li a {
         padding: 0;
     }
 
+    .sec1-right h1 {
+        margin: 0;
+    }
+
     /* SEC-2-พี่ดำ */
     .sec2-left{
         display: none;
@@ -379,6 +385,7 @@ footer ul li a {
         margin: 0 16px;
         display: flex;
         align-items: center;
+        background-color: #888;
     }
 
     /* THESIS-ตึกดำ */
