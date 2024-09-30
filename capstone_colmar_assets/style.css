@@ -189,21 +189,33 @@ nav ul li a {
 }
 .s1:hover {
     background-color: #cacaca;
+    transform: scale(1.05);
+    transition: .2s;
 }
 .s2:hover {
     background-color: #cacaca;
+    transform: scale(1.05);
+    transition: .2s;
 }
 .s3:hover {
     background-color: #cacaca;
+    transform: scale(1.05);
+    transition: .2s;
 }
 .s4:hover {
     background-color: #cacaca;
+    transform: scale(1.05);
+    transition: .2s;
 }
 .s5:hover {
     background-color: #cacaca;
+    transform: scale(1.05);
+    transition: .2s;
 }
 .s6:hover {
     background-color: #cacaca;
+    transform: scale(1.05);
+    transition: .2s;
 }
 
 .s-info h4 {
@@ -391,6 +403,10 @@ footer ul li a {
     /* THESIS-ตึกดำ */
     .urban-info, .urban-con-right {
         display: none;
+    }
+
+    .thesis-con h1 {
+        background-color: white;
     }
 
     .thesisgrid {
