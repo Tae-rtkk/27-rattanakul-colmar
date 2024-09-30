@@ -1,0 +1,87 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+/* NAVBAR */
+.mobile-nav {
+    display: none;
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 0 24px;
+    height: 64px;
+}
+
+.logo {
+    display: flex;
+    align-items: center;
+    padding: 16px 0;
+}
+
+.logo p {
+    font-weight: bold;
+    color: #3f3f3f;
+}
+
+.logo span {
+    font-weight: normal;
+    color: #8e8e8e;
+}
+
+nav ul {
+    display: flex;
+    list-style: none;
+    gap: 16px;
+    padding: 16px 0;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: #3f3f3f;
+}
+
+/* SEC-1-กลุ่มคนอ่านหนังสือ */
+.sec1-con {
+    display: grid;
+    grid-template-columns: 3fr 2fr;
+    background-color: #8e8e8e;
+}
+
+/* SEC-1-LEFT */
+.sec1-left {
+    display: flex;
+}
+
+.sec1-left img {
+    width: 100%;
+    padding: 32px 24px;
+}
+
+/* SEC-1-RIGHT */
+.sec1-right {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 32px 24px;
+}
+
+.sec1-right * {
+    padding: 1rem;
+}
+
+.sec1-right a {
+    display: flex;
+    justify-content: center;
+    text-decoration: none;
+    align-items: center;
+    background-color: #3f3f3f;
+    color: #fff;
+    padding: 8px 0;
+    margin: 8px 0;
+    width: auto;
+}
