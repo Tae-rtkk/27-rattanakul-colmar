@@ -158,10 +158,6 @@ nav ul li a {
     display: none;
 }
 
-.start-con {
-    
-}
-
 .start-con h1 {
     display: flex;
     justify-content: center;
@@ -207,20 +203,48 @@ nav ul li a {
 .urban-con-left {
     display: flex;
     flex-direction: column;
-    padding: 0 24px 0 32px;
 }
 
 .urban-video video {
     width: 100%;
-    padding-top: 16px;
+    padding: 0 24px 24px 24px;
 }
 
 .urban-info {
-    padding: 24px 0 32px 0;
+    padding: 0 24px 32px 24px;
 }
 
-.urban-info *{
-    padding: 8px 0;
+.urban-info p {
+    padding-top: 8px;
 }
 
 /* URBAN RIGHT-ตึกดำ */
+.urban-con-right {
+    display: flex;
+    flex-direction: column;
+}
+
+.fisma , .now-and-then {
+    display: flex;
+}
+
+.nat-img img, .fisma-img img {
+    width: 100%;
+    padding: 16px;
+}
+
+.fisma-info, .nat-info {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.fisma-info *, .nat-info * {
+    padding: 8px 0;
+}
+
+.urban-con-right :hover {
+    background-color: #dfdfdf;
+}
+
+/* FOOTER */
