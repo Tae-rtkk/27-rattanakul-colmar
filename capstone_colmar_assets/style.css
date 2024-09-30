@@ -158,11 +158,15 @@ nav ul li a {
     display: none;
 }
 
+.start-con {
+    background-color: #dfdfdf;
+}
+
 .start-con h1 {
     display: flex;
     justify-content: center;
     text-align: center;
-    margin: 32px 0;
+    padding: 32px 0;
 }
 
 /* START LEARNING-ตาราง */
@@ -178,12 +182,34 @@ nav ul li a {
     width: 100%;
 }
 
+.s1, .s2, .s3, .s4, .s5, .s6 {
+    background-color: #fff;
+}
+.s1:hover {
+    background-color: #cacaca;
+}
+.s2:hover {
+    background-color: #cacaca;
+}
+.s3:hover {
+    background-color: #cacaca;
+}
+.s4:hover {
+    background-color: #cacaca;
+}
+.s5:hover {
+    background-color: #cacaca;
+}
+.s6:hover {
+    background-color: #cacaca;
+}
+
 .s-info h4 {
-    padding: 16px 0;
+    padding: 16px;
 }
 
 .s-info p {
-    padding: 4px 0;
+    padding: 4px 16px;
 }
 
 /* THESIS EXHIBIT ตึกดำ */
@@ -248,3 +274,133 @@ nav ul li a {
 }
 
 /* FOOTER */
+footer {
+    display: flex;
+    justify-content: space-between;
+    border-top: 1px solid #dfdfdf;
+    margin: 32px 24px;
+    padding: 16px 0;
+}
+
+footer ul {
+    display: flex;
+    list-style: none;
+    gap: 16px;
+}
+
+footer ul li a {
+    text-decoration: none;
+    color: #3f3f3f;
+}
+
+/* RESPONSIVE */
+
+@media only screen and (max-width:768px) {
+    nav .logo, nav ul {
+        display: none;
+    }
+
+    .mobile-nav{
+        width: 100%;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        margin: 0 24px;
+    }
+
+    /* SEC-1-กลุ่มคนติวหนังสือ */
+    .sec1-con {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .sec1-left{
+        width: 100%;
+    }
+
+    .sec1-con img {
+        width: 100%;
+        padding: 0;
+    }
+
+    /* SEC-2-พี่ดำ */
+    .sec2-left{
+        display: none;
+    }
+
+    .orientation-left-desktop, .campus-left-desktop, .guest-left-desktop {
+        display: none;
+    }
+
+    .sec2-con {
+        display: grid;
+        grid-template-columns: 1fr;
+        grid-template-rows: 3fr;
+    }
+
+    .orientation, .campus, .guest {
+        display: flex;
+        flex-direction: column;
+        border: none;
+    }
+
+    .orientation-img img, .campus-img img, .guest-img img{
+        width: 100%;
+    }
+
+    .orientation-info, .campus-info , .guest-info {
+        margin-top: 0;
+        padding: 16px;
+    }
+
+    /* START LEARNING ตาราง */
+    .start-con{
+        padding: 0;
+    }
+
+    .start-grid-wrapper{
+        display: none;
+    }
+
+    .start-mobile {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .start-mobile * {
+        background-color: #888;
+        color: #333;
+        height: auto;
+        margin: 16px;
+        text-decoration: none;
+    }
+
+    .s-1-mobile, .s-2-mobile, .s-3-mobile, .s-4-mobile, .s-5-mobile, .s-6-mobile, h1 {
+        margin: 0 16px;
+        display: flex;
+        align-items: center;
+    }
+
+    /* THESIS-ตึกดำ */
+    .urban-info, .urban-con-right {
+        display: none;
+    }
+
+    .thesisgrid {
+        grid-template-columns: 1fr;
+    }
+
+    .urban-video video {
+        padding: 0;
+        padding-bottom: 24px;
+    }
+
+    /* FOOTER */
+    footer{
+        margin: 0 16px;
+    }
+
+    footer ul {
+        display: none;
+    }
+}
