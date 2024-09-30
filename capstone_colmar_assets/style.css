@@ -85,3 +85,142 @@ nav ul li a {
     margin: 8px 0;
     width: auto;
 }
+
+/* SEC-2-พี่ดำ */
+.orientation-right-mobile, .campus-right-mobile, .guest-right-mobile {
+    display: none;
+}
+
+.sec2-con {
+    display: grid;
+    grid-template-columns: 3fr 2fr;
+    padding-bottom: 32px;
+}
+
+.sec2-left {
+    display: flex;
+    flex-direction: column;
+}
+
+.sec2-left img {
+    width: 100%;
+    padding: 32px 24px;
+}
+
+.sec2-left-info {
+    padding: 0 24px;
+}
+
+.sec2-left-info h2 {
+    padding-bottom: 24px;
+}
+
+.sec2-left-info p {
+    padding-bottom: 32px;
+}
+
+.sec2-right {
+    display: flex;
+    flex-direction: column;
+}
+
+.orientation , .campus , .guest {
+    display: flex;
+    border: 1px solid #dfdfdf;
+    padding: 16px;
+}
+
+.orientation-img img,.campus-img img, .guest-img img {
+    width: 100%;
+}
+
+.orientation-info , .campus-info , .guest-info {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 16px;
+}
+
+.orientation-info *, .campus-info *, .guest-info * {
+    padding: 8px 0;
+}
+
+.orientation-info a, .campus-info a, .guest-info a {
+    text-decoration: none;
+}
+
+.sec2-right :hover {
+    background-color: #dfdfdf;
+}
+
+/* START LEARNING */
+.start-mobile {
+    display: none;
+}
+
+.start-con {
+    
+}
+
+.start-con h1 {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    margin: 32px 0;
+}
+
+/* START LEARNING-ตาราง */
+.start-grid-wrapper {
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    grid-template-rows: repeat(2,1fr);
+    gap: 32px;
+    padding: 0 72px 32px 72px;
+}
+
+.s-img img {
+    width: 100%;
+}
+
+.s-info h4 {
+    padding: 16px 0;
+}
+
+.s-info p {
+    padding: 4px 0;
+}
+
+/* THESIS EXHIBIT ตึกดำ */
+.thesisgrid {
+    display: grid;
+    grid-template-columns: 3fr 2fr;
+}
+
+.thesis-con h1 {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    margin: 32px 0;
+}
+
+/* URBAN LEFT-ตึกดำ */
+.urban-con-left {
+    display: flex;
+    flex-direction: column;
+    padding: 0 24px 0 32px;
+}
+
+.urban-video video {
+    width: 100%;
+    padding-top: 16px;
+}
+
+.urban-info {
+    padding: 24px 0 32px 0;
+}
+
+.urban-info *{
+    padding: 8px 0;
+}
+
+/* URBAN RIGHT-ตึกดำ */
