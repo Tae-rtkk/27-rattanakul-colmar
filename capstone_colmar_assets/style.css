@@ -374,6 +374,11 @@ footer ul li a {
     /* START LEARNING ตาราง */
     .start-con{
         padding: 0;
+        background-color: #fff;
+    }
+
+    .start-con h1 {
+        background-color: #fff;
     }
 
     .start-grid-wrapper{
